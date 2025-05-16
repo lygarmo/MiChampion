@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^4.2.7",
+    "@clerk/astro": "^2.7.2",
     "@clerk/clerk-react": "^5.31.2",
     "@supabase/supabase-js": "^2.49.4",
     "@types/react": "^19.1.3",

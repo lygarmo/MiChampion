@@ -1,8 +1,5 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.tsx';
+import HomePage from "../pages-react/HomePage.tsx";
 ---
 
-<BaseLayout client:load>
-  <h1 class="text-3xl font-bold">Bienvenido a Champions Burger 🍔</h1>
-  <p class="mt-4">Explora, guarda y puntúa tus hamburguesas favoritas.</p>
-</BaseLayout>
+<HomePage client:only="react" />

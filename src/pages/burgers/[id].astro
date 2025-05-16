@@ -1,0 +1,7 @@
+---
+// src/pages/burgers/[id].astro
+import BurgerDetailPage from "../../pages-react/BurgerDetailPage.tsx";
+const { id } = Astro.params;
+---
+
+<BurgerDetailPage burgerId={id} client:only="react" />
